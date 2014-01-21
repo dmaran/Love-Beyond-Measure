@@ -1,0 +1,62 @@
+.slide1-container {
+	-skrollr-animation-name: slide1-out;
+}
+
+@-skrollr-keyframes slide1-out {
+	300 {
+		left: 0px;
+		display: block;
+	}
+	
+	1500 {
+		left: -1200px;
+		display: block;
+	}
+	
+	1501 {display: none;}
+}
+.slide2-container {
+	-skrollr-animation-name: slide2-in-out;
+}
+
+@-skrollr-keyframes slide2-in-out {
+	299 {left: 1200px; display: none;}
+	
+	300 {
+		left: 1200px;
+		display: block;
+	}
+	
+	1500 {
+		left: 0px;
+		display: block;
+	}
+	
+	2500 {
+		left: 0px;
+		display: block;
+	}
+	
+	3800 {	
+	left: -1200px;
+	display: block;
+	}
+	
+	3801 {
+	display: none;
+	}
+}
+
+.slide1-logo {
+	-skrollr-animation-name: rotate-logo1;
+}
+
+@-skrollr-keyframes rotate-logo1 {
+	150 {
+		opacity: 1;
+	}
+
+	300{
+		opacity: 0;
+	}
+}
