@@ -1,7 +1,11 @@
 /*  Main Body */
 
 	body {
-		background: #000000;
+  background: url("../images/background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 		padding:0;
 		margin:0;
 	}
@@ -35,15 +39,17 @@
 	}
 
 	.slide1-logo {
-		display:block;
+		display:none;
 		position: absolute;
-		top:25%;
+		top:10%;
 		left:50%;
-		margin-left:-270px;
+		margin-left:-300px;
 	    font-size:0px;
-		width: 541px;
-		height:270px;
+		width: 600px;
+		height:200px;
+			background-size:contain;
 		background-image: url('../images/logo.png');
+		background-repeat: no-repeat;
 	}
 
 	.slide1-initialising {
@@ -54,10 +60,121 @@
 	left: 72.3%;
 	}
 
+	.slide1-image1-circle1{
+	display:block;
+	position:absolute;
+	background: url('../images/slide1/circle1.png') no-repeat;
+	background-size:contain;
+	width:600px;
+	height:600px;
+	top:50%;
+	left:50%;
+	margin-left:-300px;
+	margin-top:-300px;
+	}
+	.slide1-image2-circle2{
+	display:block;
+	position:absolute;
+	background: url('../images/slide1/circle2.png') no-repeat;
+	background-size:contain;
+width:600px;
+	height:600px;
+	top:50%;
+	left:50%;
+	margin-left:-300px;
+	margin-top:-300px;
+	}
+	.slide1-image3-pot1{
+	display:block;
+	position:absolute;
+	background: url('../images/slide1/circle3.png') no-repeat;
+	background-size:contain;
+	width:400px;
+	height:400px;
+	top:50%;
+	left:50%;
+	margin-left:-165px;
+	margin-top:-180px;
+	}
+	.slide1-image5-ruler1{
+	display:block;
+	position:absolute;
+	background: url('../images/slide1/ruler1.png') no-repeat;
+	background-size:contain;
+    width:225px;
+	height:140px;
+	top:50%;
+	left:50%;
+	margin-left:25px;
+	margin-top:0px;
+	}
+	.slide1-image6-shoe1{
+	display:block;
+	position:absolute;
+	background: url('../images/slide1/shoe1.png') no-repeat;
+	background-size:contain;
+	width:100px;
+	height:100px;
+	top:50%;
+	left:50%;
+	margin-left:-10px;
+	margin-top:80px;
+	}
+	.slide1-image7-shoe2{
+	display:block;
+	position:absolute;
+	background: url('../images/slide1/shoe2.png') no-repeat;
+	background-size:contain;
+	width:100px;
+	height:100px;
+	top:50%;
+	left:50%;
+	margin-left:-20px;
+	margin-top:110px;
+	}
+	.slide1-image8-shoe3{
+	display:block;
+	position:absolute;
+	background: url('../images/slide1/shoe3.png') no-repeat;
+	background-size:contain;
+	width:100px;
+	height:100px;
+	top:50%;
+	left:50%;
+	margin-left:-110px;
+	margin-top:-65px;
+	}
+	.slide1-image9-shoe4{
+	display:block;
+	position:absolute;
+	background: url('../images/slide1/shoe4.png') no-repeat;
+	background-size:contain;
+	width:100px;
+	height:100px;
+	top:50%;
+	left:50%;
+	margin-left:-90px;
+	margin-top:-55px;
+	}
+	.slide1-image4-circle4{
+	display:block;
+	position:absolute;
+	background: url('../images/slide1/circle4.png') no-repeat;
+	background-size:contain;
+    width:600px;
+	height:600px;
+	top:50%;
+	left:50%;
+	margin-left:-300px;
+	margin-top:-300px;
+	z-index:100;
+	}
+
 /*  Slide Two */
 
 	.slide2-container {
-		display:block;
+		display: none;
+
 		position: absolute;
 		height: 750px;
 		width: 1200px;
@@ -264,4 +381,66 @@
 	height:300px;
     bottom:8%;
     left:2%;
+	}
+
+/*  Slide Three */
+
+.slide3-container {
+		display:block;
+		position: absolute;
+		height: 750px;
+		width: 1200px;
+		overflow:hidden;
+		top:0;
+		left: 0;
+	}
+	.slide3-image1-rain{
+	display:block;
+	position:absolute;
+	background: url('../images/slide3/rain.png') no-repeat;
+	background-size:contain;
+	width:160px;
+	height:80px;
+	top:0;
+	left:0;
+	}
+	.slide3-image2-clouds{
+	display:block;
+	position:absolute;
+	background: url('../images/slide3/clouds.png') no-repeat;
+	background-size:contain;
+	width:400px;
+	height:100px;
+	top:0;
+	left:0;
+	}
+	.slide3-image3-river{
+	display:block;
+	position:absolute;
+	background: url('../images/slide3/river.png') no-repeat;
+	background-size:contain;
+	width:600px;
+	height:300px;
+	bottom:0;
+	left:0;
+	}
+	.slide3-image4-women{
+	display:block;
+	position:absolute;
+	background: url('../images/slide3/women.png') no-repeat;
+	background-size:contain;
+	width:600px;
+	height:300px;
+	bottom:0;
+	left:0;
+	}
+	.slide3-image5-floatinghead{
+	display:block;
+	position:absolute;
+	background: url('../images/slide3/floatinghead.png') no-repeat;
+	background-size:contain;
+	width:600px;
+	height:300px;
+	top:0;
+	right:0;
 	}

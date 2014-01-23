@@ -5,23 +5,35 @@
 <title>Love Beyond Measure</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/parallax-keyframes.css" data-skrollr-stylesheet>
+<link rel="stylesheet" href="css/jpreloader.css" >
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jpreloader.min.js"></script>
 
 </head>
 
 <body>
-
 	<div class="full-container">
 	<div class="viewcontainer">
-		<div class="slide1-container">
 
-			<div class="slide1-logo">
+        <div class="slide1-container">
 
-			<h1>Love Beyond Measure</h1>
-
-			<div class="slide1-initialising"><img src="images/intilising.gif" height="25"></div>
-
+		<!-- NOT NEEDED ATM
+		<div class="slide1-logo"></div>
+		-->
+		<div class="slide1-circle">
+			<div class="slide1-image1-circle1"></div>
+			<div class="slide1-image2-circle2"></div>
+			<div class="slide1-image4-circle4"></div>
+			<div class="circle-details">
+				<div class="slide1-image3-pot1"></div>
+				<div class="slide1-image5-ruler1"></div>
+				<div class="slide1-image6-shoe1"></div>
+				<div class="slide1-image7-shoe2"></div>
+				<div class="slide1-image8-shoe3"></div>
+				<div class="slide1-image9-shoe4"></div>
 			</div>
 		</div>
+        </div>
 
     <div class="slide2-container">
 
@@ -47,6 +59,14 @@
             <div class="slide2-image18-waterbowl"></div>
 
 		</div>
+
+        <div class="slide3-container">
+
+            <div class="slide3-image1-rain"></div>
+
+
+        </div>
+      
 		</div>
 	</div>
 	</div>
@@ -56,6 +76,11 @@
 <script src="js/skrollr.stylesheets.min.js"></script>
 <script type="text/javascript">
     var s = skrollr.init();
+</script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      $('body').jpreLoader();
+   });
 </script>
 </body>
 </html>

@@ -1,3 +1,13 @@
+.circle-details {
+	-skrollr-animation-name: circle-details-fade;
+}
+
+@-skrollr-keyframes circle-details-fade{
+	0 { opacity: 1;}
+	
+	500 { opacity: 0;}
+}
+
 .slide1-container {
 	-skrollr-animation-name: slide1-out;
 }
@@ -6,15 +16,21 @@
 	300 {
 		left: 0px;
 		display: block;
+		transform: scale(1,1);
+		opacity: 1;
 	}
 	
-	1500 {
-		left: -1200px;
-		display: block;
-	}
-	
-	1501 {display: none;}
+	700 {opacity: 0; }
 }
+
+
+
+/* 	DISABLE SLIDE 2 FOR DEV
+/* 	DISABLE SLIDE 2 FOR DEV
+/* 	DISABLE SLIDE 2 FOR DEV
+/* 	DISABLE SLIDE 2 FOR DEV
+/* 	DISABLE SLIDE 2 FOR DEV
+
 .slide2-container {
 	-skrollr-animation-name: slide2-in-out;
 }
@@ -47,16 +63,4 @@
 	}
 }
 
-.slide1-logo {
-	-skrollr-animation-name: rotate-logo1;
-}
-
-@-skrollr-keyframes rotate-logo1 {
-	150 {
-		opacity: 1;
-	}
-
-	300{
-		opacity: 0;
-	}
-}
+*/
