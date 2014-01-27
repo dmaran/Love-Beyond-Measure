@@ -173,8 +173,6 @@ width:600px;
 /*  Slide Two */
 
 	.slide2-container {
-		display: none;
-
 		position: absolute;
 		height: 750px;
 		width: 1200px;
@@ -383,9 +381,9 @@ width:600px;
     left:2%;
 	}
 
-/*  Slide Three */
+/*  Transition 1 */
 
-.slide3-container {
+.transition1-container{
 		display:block;
 		position: absolute;
 		height: 750px;
@@ -394,53 +392,137 @@ width:600px;
 		top:0;
 		left: 0;
 	}
-	.slide3-image1-rain{
+	.transition1-image1-rain{
 	display:block;
 	position:absolute;
 	background: url('../images/slide3/rain.png') no-repeat;
 	background-size:contain;
-	width:160px;
-	height:80px;
-	top:0;
-	left:0;
+	width:700px;
+	height:500px;
+	top:12%;
+	left:50%;
+	margin-left:-350px;
 	}
-	.slide3-image2-clouds{
+	.transition1-image2-clouds{
 	display:block;
 	position:absolute;
-	background: url('../images/slide3/clouds.png') no-repeat;
+	background: url('../images/slide3/cloudbar.png') no-repeat;
 	background-size:contain;
-	width:400px;
-	height:100px;
-	top:0;
-	left:0;
+	width:1900px;
+	height:600px;
+	top:0%;
+	left:50%;
+	margin-left:-850px;
 	}
-	.slide3-image3-river{
+	.transition1-image3-river2{
 	display:block;
 	position:absolute;
-	background: url('../images/slide3/river.png') no-repeat;
+	background: url('../images/slide3/river2.png') no-repeat;
 	background-size:contain;
-	width:600px;
-	height:300px;
+	width:1100px;
+	height:250px;
 	bottom:0;
-	left:0;
+	left:50%;
+	margin-left:-550px;
+	z-index:100;
 	}
-	.slide3-image4-women{
+	.transition1-image4-women{
 	display:block;
 	position:absolute;
 	background: url('../images/slide3/women.png') no-repeat;
 	background-size:contain;
-	width:600px;
-	height:300px;
-	bottom:0;
-	left:0;
+	width:300px;
+	height:500px;
+    top:24%;
+	left:50%;
+	margin-left:-170px;
 	}
-	.slide3-image5-floatinghead{
+	.transition1-image5-floatinghead{
 	display:block;
 	position:absolute;
 	background: url('../images/slide3/floatinghead.png') no-repeat;
 	background-size:contain;
+	width:200px;
+	height:100px;
+	top:10%;
+	right:50%;
+	margin-right:-380px;
+	}
+
+/*  Transition 2 */
+
+.transition2-container{
+		display:block;
+		position: absolute;
+		height: 750px;
+		width: 1200px;
+		overflow:hidden;
+		top:0;
+		left: 0;
+	}
+	.transition2-image1-background{
+	display:block;
+	position:absolute;
+	background: url('../images/transiton2/background.jpg') no-repeat;
+	background-size:contain;
+	width:1200px;
+	height:1000px;
+	top:0%;
+	left:0%;
+	}
+	.transition2-image2-buildings{
+	display:block;
+	position:absolute;
+	background: url('../images/transiton2/buildings.png') no-repeat;
+	background-size:contain;
+	width:1200px;
+	height:250px;
+	top:0%;
+	left:0%;
+	}
+	.transition2-image3-women{
+	display:block;
+	position:absolute;
+	background: url('../images/transiton2/women.png') no-repeat;
+	background-size:contain;
+	width:700px;
+	height:175px;
+	top:50%;
+	left:50%;
+	margin-left:-350px;
+	margin-top:-67.5px;
+	z-index:100;
+	}
+	.transition2-image4-reflection{
+	display:block;
+	position:absolute;
+	background: url('../images/transiton2/reflection.png') no-repeat;
+	background-size:contain;
 	width:600px;
-	height:300px;
-	top:0;
-	right:0;
+	height:155px;
+	top:66%;
+	left:50%;
+	margin-left:-60px;
+	}
+	.transition2-image5-whiteline{
+	display:block;
+	position:absolute;
+	background: url('../images/transiton2/whiteline.png') no-repeat;
+	background-size:contain;
+	width:1200px;
+	height:155px;
+	top:58%;
+	left:0%;
+	margin-left:-60px;
+	}
+	.transition2-image6-pot{
+	display:block;
+	position:absolute;
+	background: url('../images/transiton2/pot.png') no-repeat;
+	background-size:contain;
+	width:400px;
+	height:155px;
+	top:43%;
+	left:8%;
+
 	}
