@@ -1,7 +1,7 @@
 /*  Main Body */
 
 	body {
-  background: url("../images/background.png") no-repeat center center fixed; 
+  background: #323232; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,35 +9,38 @@
 		padding:0;
 		margin:0;
 	}
-
+	
 	.full-container {
-		position: relative;
+		position: fixed;
 		width: 100%;
 		height: 100%;
-		top: 0%;
+		overflow: hidden;
 	}
-
+	
 	.viewcontainer {
 		display:block;
-		position: fixed;
-		height: 750px;
-		width: 1200px;
-		left: 50%;
-		margin-left: -600px;
-		overflow: hidden
+		position: relative;
+		height: 100%;
+		max-width: 1200px;
+		max-height: 750px;
+		margin: auto;
+		overflow: hidden;
 	}
 
-/*  Slide One */
 
+/*  Slide One */
 	.slide1-container {
 		display:block;
 		position: absolute;
-		height: 750px;
-		width: 1200px;
+		height: 100%;
+		width: 100%;
 		top:0;
 		left: 0;
+		z-index: 1;
 	}
-
+	
+	
+	/* NOT NEEDED?
 	.slide1-logo {
 		display:none;
 		position: absolute;
@@ -59,31 +62,37 @@
 	top: 135px;
 	left: 72.3%;
 	}
+	
+	*/
+
 
 	.slide1-image1-circle1{
 	display:block;
 	position:absolute;
 	background: url('../images/slide1/circle1.png') no-repeat;
 	background-size:contain;
-	width:600px;
-	height:600px;
+	width: 600px;
+	height:600px; /* As above but by height */
 	top:50%;
 	left:50%;
 	margin-left:-300px;
-	margin-top:-300px;
+	margin-top: -300px;
 	}
+	
+	
 	.slide1-image2-circle2{
 	display:block;
 	position:absolute;
 	background: url('../images/slide1/circle2.png') no-repeat;
 	background-size:contain;
-width:600px;
+	width: 600px;
 	height:600px;
 	top:50%;
 	left:50%;
 	margin-left:-300px;
-	margin-top:-300px;
+	margin-top: -300px;
 	}
+	
 	.slide1-image3-pot1{
 	display:block;
 	position:absolute;
@@ -173,12 +182,13 @@ width:600px;
 /*  Slide Two */
 
 	.slide2-container {
+		display: none;
 		position: absolute;
 		height: 750px;
 		width: 1200px;
 		overflow:hidden;
 		top:0;
-		left: 0;
+		left: 1200px;
 	}
 	.slide2-image1-elephant1{
 	display:block;
@@ -393,7 +403,7 @@ width:600px;
 		left: 0;
 	}
 	.transition1-image1-rain{
-	display:block;
+	display:none;
 	position:absolute;
 	background: url('../images/slide3/rain.png') no-repeat;
 	background-size:contain;
@@ -404,7 +414,7 @@ width:600px;
 	margin-left:-350px;
 	}
 	.transition1-image2-clouds{
-	display:block;
+	display:none;
 	position:absolute;
 	background: url('../images/slide3/cloudbar.png') no-repeat;
 	background-size:contain;
@@ -415,7 +425,7 @@ width:600px;
 	margin-left:-850px;
 	}
 	.transition1-image3-river2{
-	display:block;
+	display:none;
 	position:absolute;
 	background: url('../images/slide3/river2.png') no-repeat;
 	background-size:contain;
@@ -438,7 +448,7 @@ width:600px;
 	margin-left:-170px;
 	}
 	.transition1-image5-floatinghead{
-	display:block;
+	display:none;
 	position:absolute;
 	background: url('../images/slide3/floatinghead.png') no-repeat;
 	background-size:contain;
