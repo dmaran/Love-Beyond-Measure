@@ -72,8 +72,8 @@
 	background: url('../images/slide1/circle1.png') no-repeat;
 	background-size:contain;
 	width: 600px;
-	height:600px; /* As above but by height */
 	top:50%;
+	height:600px;
 	left:50%;
 	margin-left:-300px;
 	margin-top: -300px;
@@ -536,3 +536,8 @@
 	left:8%;
 
 	}
+	
+	#transition-1 {
+		position: absolute;
+		top: 500px;
+	}	
