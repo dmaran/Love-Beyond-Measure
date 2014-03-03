@@ -1,11 +1,11 @@
 /*  Main Body */
 
 	body {
-  background: #323232; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+		background: #323232 url('../images/art-gallery.JPG');
+		background-position: 50% 0;
+		background-repeat: repeat-x;
+		background-attachment:fixed;
+		background-size:contain;
 		padding:0;
 		margin:0;
 	}
@@ -17,54 +17,51 @@
 		overflow: hidden;
 	}
 	
+	.fixed-menu {
+		font-family: Verdana, Arial, sans-serif;
+		position: fixed;
+		left:50%;
+		bottom: 50px;
+		width: 500px;
+		margin-left: -250px;
+		background: rgba(255,255,255,0.2);
+		border-radius: 4px;
+		text-align: center;
+		padding: 10px;
+	}
+	
 	.viewcontainer {
 		display:block;
 		position: relative;
 		height: 100%;
+		width: 100%;
+		top: 150px;
 		max-width: 1200px;
 		max-height: 750px;
 		margin: auto;
 		overflow: hidden;
+		background: #323232;
+		box-shadow: 0px 6px 11px 0px rgba(50, 50, 50, 0.95);
+	}
+	
+	#horizontal-scroll-area-1 {
+		width: 7200px;
+		height: 750px;
+		position: absolute;
 	}
 
-
-/*  Slide One */
-	.slide1-container {
+	.slide-container {
 		display:block;
 		position: absolute;
-		height: 100%;
-		width: 100%;
-		top:0;
-		left: 0;
+		height: 750px;
+		width: 1200px;
 		z-index: 1;
 	}
-	
-	
-	/* NOT NEEDED?
-	.slide1-logo {
-		display:none;
-		position: absolute;
-		top:10%;
-		left:50%;
-		margin-left:-300px;
-	    font-size:0px;
-		width: 600px;
-		height:200px;
-			background-size:contain;
-		background-image: url('../images/logo.png');
-		background-repeat: no-repeat;
-	}
 
-	.slide1-initialising {
-	width:90px;
-	height:50px;
-	position: absolute;
-	top: 135px;
-	left: 72.3%;
+/*  Slide One */
+	#slide1 {
+	left: 0;
 	}
-	
-	*/
-
 
 	.slide1-image1-circle1{
 	display:block;
@@ -180,6 +177,9 @@
 	}
 
 /*  Slide Two */
+	#slide2 {
+	left: 1200px;
+	}
 
 	.slide2-container {
 		display: none;
@@ -390,6 +390,27 @@
     bottom:8%;
     left:2%;
 	}
+	
+/* Slide 3 */
+#slide3 {
+	left: 2400px;
+	background: url('../images/slide3-background.png');
+}	
+/* Slide 4 */
+#slide4 {
+	left: 3600px;
+	background: url('../images/slide4-background.png');
+}	
+/* Slide 5 */
+#slide5 {
+	left: 4800px;
+	background: url('../images/slide5-background.png');
+}	
+/* Slide 6 */
+#slide6 {
+	left: 6000px;
+	background: url('../images/slide6-background.png');
+}
 
 /*  Transition 1 */
 

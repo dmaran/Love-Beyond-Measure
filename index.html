@@ -7,64 +7,74 @@
 <link rel="stylesheet" type="text/css" href="css/parallax-keyframes.css" data-skrollr-stylesheet>
 <link rel="stylesheet" href="css/jpreloader.css" >
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/jquery.event.special.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.scrollstop.js"></script>
-<script src="js/jquery.scrollsnap.js"></script>
 <script src="js/jpreloader.min.js"></script>
 
 </head>
 
 <body>
-	<div id="transition-1"></div>
 	<div class="full-container">
 		<div class="viewcontainer">
-
-			<div class="slide1-container">
-					<div class="slide1-image1-circle1"></div>
-					<div class="slide1-image2-circle2"></div>
-					<div class="slide1-image4-circle4"></div>
-					<div class="circle-details">
-						<div class="slide1-image3-pot1"></div>
-						<div class="slide1-image5-ruler1"></div>
-						<div class="slide1-image6-shoe1"></div>
-						<div class="slide1-image7-shoe2"></div>
-						<div class="slide1-image8-shoe3"></div>
-						<div class="slide1-image9-shoe4"></div>
-					</div>
-			</div>
-
-				<div class="transition1-container">
-					<div class="transition1-image1-rain"></div>
-					<div class="transition1-image2-clouds"></div>
-					<div class="transition1-image3-river2"></div>
-					<div class="transition1-image4-women"></div>
-					<div class="transition1-image5-floatinghead"></div>
+		
+			<div id="horizontal-scroll-area-1">
+				<div id="slide1" class="slide-container">
+						<div class="slide1-image1-circle1"></div>
+						<div class="slide1-image2-circle2"></div>
+						<div class="slide1-image4-circle4"></div>
+						<div class="circle-details">
+							<div class="slide1-image3-pot1"></div>
+							<div class="slide1-image5-ruler1"></div>
+							<div class="slide1-image6-shoe1"></div>
+							<div class="slide1-image7-shoe2"></div>
+							<div class="slide1-image8-shoe3"></div>
+							<div class="slide1-image9-shoe4"></div>
+						</div>
 				</div>
 
-			<div class="slide2-container">
-				<div class="slide2-image1-elephant1"></div>
-				<div class="slide2-image2-elephant2"></div>
-				<div class="slide2-image3-elephant3"></div>
-				<div class="slide2-image4-elephant4"></div>
-				<div class="slide2-image5-ruler1"></div>
-				<div class="slide2-image6-waves"></div>
-				<div class="slide2-image7-ruler2"></div>
-				<div class="slide2-image8-woman"></div>
-				<div class="slide2-image9-ruler3"></div>
-				<div class="slide2-image10-womenlaying"></div>
-				<div class="slide2-image11-flower1"></div>
-				<div class="slide2-image12-flower2"></div>
-				<div class="slide2-image13-fish1"></div>
-				<div class="slide2-image14-fish2"></div>
-				<div class="slide2-image15-flower3"></div>
-				<div class="slide2-image15-flower4"></div>
-				<div class="slide2-image15-flower5"></div>
-				<div class="slide2-image16-legsandcompase"></div>
-				<div class="slide2-image17-bluebox"></div>
-				<div class="slide2-image18-waterbowl"></div>
+				<div id="slide2" class="slide-container">
+					<div class="slide2-image1-elephant1"></div>
+					<div class="slide2-image2-elephant2"></div>
+					<div class="slide2-image3-elephant3"></div>
+					<div class="slide2-image4-elephant4"></div>
+					<div class="slide2-image5-ruler1"></div>
+					<div class="slide2-image6-waves"></div>
+					<div class="slide2-image7-ruler2"></div>
+					<div class="slide2-image8-woman"></div>
+					<div class="slide2-image9-ruler3"></div>
+					<div class="slide2-image10-womenlaying"></div>
+					<div class="slide2-image11-flower1"></div>
+					<div class="slide2-image12-flower2"></div>
+					<div class="slide2-image13-fish1"></div>
+					<div class="slide2-image14-fish2"></div>
+					<div class="slide2-image15-flower3"></div>
+					<div class="slide2-image15-flower4"></div>
+					<div class="slide2-image15-flower5"></div>
+					<div class="slide2-image16-legsandcompase"></div>
+					<div class="slide2-image17-bluebox"></div>
+					<div class="slide2-image18-waterbowl"></div>
+				</div>
+				
+				<div id="slide3" class="slide-container">
+				</div>
+				
+				<div id="slide4" class="slide-container">
+				</div>
+				
+				<div id="slide5" class="slide-container">
+				</div>
+				
+				<div id="slide6" class="slide-container">
+				</div>
+			
 			</div>
 		
+		</div>
+		<div id="menu" class="fixed-menu">
+			<a id="slide1-button">SLIDE 1</a>&nbsp;|&nbsp;
+			<a id="slide2-button">SLIDE 2</a>&nbsp;|&nbsp;
+			<a id="slide3-button">SLIDE 3</a>&nbsp;|&nbsp;
+			<a id="slide4-button">SLIDE 4</a>&nbsp;|&nbsp;
+			<a id="slide5-button">SLIDE 5</a>&nbsp;|&nbsp;
+			<a id="slide6-button">SLIDE 6</a>
 		</div>
 	</div>
 
@@ -72,21 +82,17 @@
 <script src="js/skrollr.min.js"></script>
 <script src="js/skrollr.stylesheets.min.js"></script>
 <script type="text/javascript">
-    var s = skrollr.init();
+var s = skrollr.init(/*other stuff*/);
 </script>
 <script type="text/javascript">
    $(document).ready(function() {
-      $('body').jpreLoader();
-
-	  $(document).scrollsnap({
-        snaps: '#transition-1',
-		easing: 'linear',
-		duration: 2500,
-		offset: 3300,
-		onSnapWait: 200,
-        proximity: 100
-    });
-	
+      $('body').jpreLoader();	
+	  $("#slide1-button").click(function() {$('body,html').stop().animate({scrollTop: 0}, 2000); });
+	  $("#slide2-button").click(function() {$('body,html').stop().animate({scrollTop: 1200}, 2000); });
+	  $("#slide3-button").click(function() {$('body,html').stop().animate({scrollTop: 2400}, 2000); });
+	  $("#slide4-button").click(function() {$('body,html').stop().animate({scrollTop: 3600}, 2000); });
+	  $("#slide5-button").click(function() {$('body,html').stop().animate({scrollTop: 4800}, 2000); });
+	  $("#slide6-button").click(function() {$('body,html').stop().animate({scrollTop: 6000}, 2000); });
    });
 </script>
 </body>
