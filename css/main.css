@@ -635,3 +635,165 @@
 	top:75%;
 	left:30%;
 	}
+
+/*  Slide Five */
+
+	.slide5-container {
+		position: absolute;
+		height: 750px;
+		width: 1200px;
+		overflow:hidden;
+		top:0;
+	}
+	.slide5-image1-pot1{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot1.png') no-repeat;
+	background-size:contain;
+    height:250px;
+	width:100px;
+	top:5%;
+	left:44%;
+	}
+	.slide5-image2-pot2{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot2.png') no-repeat;
+	background-size:contain;
+    height:240px;
+    width:90px;
+	top:5%;
+	left:54%;
+	}
+	.slide5-image3-pot3{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot3.png') no-repeat;
+	background-size:contain;
+   height:240px;
+    width:85px;
+	top:4.5%;
+	left:63%;
+	}
+	.slide5-image4-pot4{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot4.png') no-repeat;
+	background-size:contain;
+ height:240px;
+    width:85px;
+	top:4.5%;
+	left:71.5%;
+	}
+	.slide5-image5-pot5{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot5.png') no-repeat;
+	background-size:contain;
+    height:250px;
+	width:100px;
+	top:20%;
+	left:44%;
+	}
+	.slide5-image6-pot6{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot6.png') no-repeat;
+	background-size:contain;
+    height:250px;
+	width:100px;
+	top:20%;
+	left:54%;
+	}
+	.slide5-image7-pot7{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot7.png') no-repeat;
+	background-size:contain;
+  height:250px;
+	width:95px;
+	top:20%;
+	left:63%;
+	}
+	.slide5-image8-pot8{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot8.png') no-repeat;
+	background-size:contain;
+  height:250px;
+	width:85px;
+	top:20%;
+	left:71.5%;
+	}
+	.slide5-image9-pot9{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot9.png') no-repeat;
+	background-size:contain;
+    height:250px;
+	width:100px;
+	top:37%;
+	left:44%;
+	}
+	.slide5-image10-pot10{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot10.png') no-repeat;
+	background-size:contain;
+   height:250px;
+	width:100px;
+	top:36.5%;
+	left:53.5%;
+	}
+	.slide5-image11-pot11{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/pot11.png') no-repeat;
+	background-size:contain;
+    height:250px;
+	width:100px;
+	top:34%;
+	left:63%;
+	}
+    .slide5-image12-rockplants{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/rockplants.png') no-repeat;
+	background-size:contain;
+    height:700px;
+	width:900px;
+	top:50%;
+	left:50%;
+	margin-left:-450px;
+	margin-top:-350px;
+	}
+    .slide5-image13-brokenpot{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/brokenpot.png') no-repeat;
+	background-size:contain;
+    height:250px;
+	width:90px;
+	top:35%;
+	left:70%;
+	}
+	.slide5-image14-women{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/women.png') no-repeat;
+	background-size:contain;
+    height:300px;
+	width:400px;
+	top:38%;
+	left:30%;
+	}
+	.slide5-image15-background2{
+	display:block;
+	position:absolute;
+	background: url('../images/slide5/background2.png') no-repeat;
+	background-size:contain;
+    height:800px;
+	width:475px;
+	top:2%;
+	right:20%;
+	}
