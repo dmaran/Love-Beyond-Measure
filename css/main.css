@@ -542,7 +542,7 @@
 		top: 500px;
 	}	
 
-/*  Slide Two */
+/*  Slide Four */
 
 	.slide2-container {
 		display: none;
@@ -616,7 +616,7 @@
 	top:10%;
 	left:0;
 	}
-	.slide4-image8-pot{
+	.slide4-image8-water{
 	display:block;
 	position:absolute;
 	background: url('../images/slide4/water.png') no-repeat;
