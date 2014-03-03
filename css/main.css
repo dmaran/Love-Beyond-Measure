@@ -544,50 +544,54 @@
 
 /*  Slide Four */
 
-	.slide2-container {
-		display: none;
+	.slide4-container {
 		position: absolute;
 		height: 750px;
 		width: 1200px;
 		overflow:hidden;
 		top:0;
-		left: 1200px;
 	}
 	.slide4-image1-blood1{
 	display:block;
 	position:absolute;
 	background: url('../images/slide4/blood1.png') no-repeat;
 	background-size:contain;
-	width:681px;
-	top:10%;
-	left:0;
+    height:250px;
+	width:100px;
+	top:23%;
+	left:47%;
 	}
 	.slide4-image2-blood2{
 	display:block;
 	position:absolute;
 	background: url('../images/slide4/blood2.png') no-repeat;
 	background-size:contain;
-	width:681px;
-	top:10%;
-	left:0;
+    height:250px;
+	width:100px;
+	top:23%;
+	left:60%;
 	}
 	.slide4-image3-foot1{
 	display:block;
 	position:absolute;
 	background: url('../images/slide4/foot1.png') no-repeat;
 	background-size:contain;
-	width:440px;
-	top:10%;
-	left:0;
+	width:240px;
+	height:100px;
+	top:60%;
+	left:55%;
+	margin-left:-120px;
 	}
     .slide4-image4-foot2{
 	display:block;
 	position:absolute;
 	background: url('../images/slide4/foot2.png') no-repeat;
 	background-size:contain;
-	width:429px;
-	top:10%;
-	left:0;
+    width:200px;
+	height:80px;
+	top:62%;
+	left:60%;
+	margin-left:-120px;
 	}
 	.slide4-image5-leg1{
 	display:block;
@@ -595,8 +599,9 @@
 	background: url('../images/slide4/leg1.png') no-repeat;
 	background-size:contain;
 	width:467px;
-	top:10%;
-	left:0;
+	height:200px;
+	top:0%;
+	left:40%;
 	}
 	.slide4-image6-leg2{
 	display:block;
@@ -604,17 +609,21 @@
 	background: url('../images/slide4/leg2.png') no-repeat;
 	background-size:contain;
 	width:467px;
-	top:10%;
-	left:0;
+	height:200px;
+	top:0%;
+	left:52%;
 	}
 	.slide4-image7-pot{
 	display:block;
 	position:absolute;
 	background: url('../images/slide4/pot.png') no-repeat;
 	background-size:contain;
-	width:1463px;
-	top:10%;
-	left:0;
+	width:500px;
+	height:375px;
+	top:70%;
+	left:32.5%;
+	margin-top:-250px;
+
 	}
 	.slide4-image8-water{
 	display:block;
@@ -622,6 +631,7 @@
 	background: url('../images/slide4/water.png') no-repeat;
 	background-size:contain;
 	width:707px;
-	top:10%;
-	left:0;
+	height:200px;
+	top:75%;
+	left:30%;
 	}
