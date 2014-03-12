@@ -740,3 +740,68 @@
 	left:44%;
 		margin-left:-200px;
 	}
+
+
+
+/*  Slide six */
+
+	.slide6-container {
+		position: absolute;
+		height: 750px;
+		width: 1200px;
+		overflow:hidden;
+		top:0;
+	}
+	.slide6-image1-background{
+	display:block;
+	position:absolute;
+	background: url('../images/slide6/background.png') no-repeat;
+	background-size:contain;
+    height:700px;
+	width:700px;
+	top:5%;
+	left:50%;
+	margin-left:-350px;
+	}
+	.slide6-image2-arrow{
+	display:block;
+	position:absolute;
+	background: url('../images/slide6/arrow.png') no-repeat;
+	background-size:contain;
+    height:250px;
+	width:50px;
+	top:48%;
+	left:21%;
+	}
+	.slide6-image3-bottombar{
+	display:block;
+	position:absolute;
+	background: url('../images/slide6/bottombar.png') no-repeat;
+	background-size:contain;
+    height:250px;
+	width:700px;
+	top:82.8%;
+	left:20.8%;
+    }
+	.slide6-image4-man{
+	display:block;
+	position:absolute;
+	background: url('../images/slide6/man.png') no-repeat;
+	background-size:contain;
+    height:250px;
+	width:400px;
+	top:16%;
+	left:77%;
+	margin-left:-200px;
+	}
+	.slide6-image5-water{
+	display:block;
+	position:absolute;
+	background: url('../images/slide6/water.png') no-repeat;
+	background-size:contain;
+    height:500px;
+	width:700px;
+	top:33%;
+	left:37%;
+	margin-left:-200px;
+	}
