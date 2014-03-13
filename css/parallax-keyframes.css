@@ -1,128 +1,193 @@
-.circle-details {
-	-skrollr-animation-name: circle-details-fade;
+.video-test {
+	-skrollr-animation-name: video-test;
 }
 
-@-skrollr-keyframes circle-details-fade{
-	0 { opacity: 1;}
-	
-	500 { opacity: 0;}
+@-skrollr-keyframes video-test {
+
+	0 {
+		background-position: !0 0;
+	}
+	20 {
+		background-position: !0 -274px;
+	}
+	40 {
+		background-position: !0 -548px;
+	}
+	60 {
+		background-position: !0 -822px;
+		}
+	80 {
+		background-position: !0 -1096px;
+	}
+	100 {
+		background-position: !0 -1370px;
+	}
 }
 
-.slide1-container {
-	-skrollr-animation-name: slide1-fadeout;
+#horizontal-scroll-area-1 {
+	-skrollr-animation-name: horizontal-1;
 }
 
-@-skrollr-keyframes slide1-fadeout {
-	300 {
-		opacity: 1;
+@-skrollr-keyframes horizontal-1 {
+
+	0 {
+		left: 0px;
+		top: 0px;
 	}
 	
-	700 {opacity: 0; }
+	7200 {
+		left: -7200px;
+	}
+}
+
+
+
+#slide1 {
+	-skrollr-animation-name: slide1;
+}
+
+@-skrollr-keyframes slide1 {
+	0 {
+		left: 0px;
+		transform: rotate(0deg);
+	}
+	
+	900 {
+		opacity: 1;
+		left: 900px;
+		transform: rotate(108.75deg)
+	}
+	
+	1200 {
+		left: 1200px;
+		opacity: 0;
+		transform: rotate(145deg);
+	}
+}
+
+
+#transition1 {
+	-skrollr-animation-name: transition1;
+}
+
+@-skrollr-keyframes transition1 {
+	0 {
+		left: 0px;
+	}
+	
+	900 {
+		display: block;
+		left: 900px;
+	}
+	
+	1200 {
+		left: 1200px;
+	}
+	
+	3500 {
+		left: 3500px;
+		opacity: 1;
+	}
+
+	4000 {
+		left: 4000px;
+		opacity: 0;
+	}
 }
 
 .transition1-image2-clouds {
-	-skrollr-animation-name: transition-1-clouds;
+	-skrollr-animation-name: transition1-clouds;
 }
 
-@-skrollr-keyframes transition-1-clouds {
-	700 {
-		left:-1200px;
-		display: block;
-	}
-	
-	1600 {
-		left:50%;
-		margin-left:-850px;
-		display: block;
-	}
-}
-
-.transition1-image5-floatinghead {
-	-skrollr-animation-name: transition-1-head;
-}
-
-@-skrollr-keyframes transition-1-head {
+@-skrollr-keyframes transition1-clouds {
 	1200 {
-		opacity: 0;
 		display: block;
+		transform: translate(-1200px,0px);
 	}
 	
 	2000 {
-		opacity: 1;
-		display: block;
+		transform: translate(0px,0px);
 	}
 }
 
 .transition1-image1-rain {
-	-skrollr-animation-name: transition-1-rain;
+	-skrollr-animation-name: transition1-rain;
 }
 
-@-skrollr-keyframes transition-1-rain {
-	1400 {
-		top: -25%;
+@-skrollr-keyframes transition1-rain {	
+	2000 {
+		transform: translate(0px,-650px);
+		display: block;
+	}
+	2800 {
+		transform: translate(0px,0px);
+	}
+}
+
+.transition1-image5-floatinghead {
+	-skrollr-animation-name: transition1-head;
+}
+
+@-skrollr-keyframes transition1-head {	
+	2800 {
 		display: block;
 		opacity: 0;
-		left: 50%;
 	}
 	
-	2400 {
-		top: 12%;
+	3500 {
 		opacity: 1;
-		left:50%;
 	}
 }
 
 .transition1-image3-river2 {
-	-skrollr-animation-name: transition-1-river;
+	-skrollr-animation-name: transition1-river;
 }
 
-@-skrollr-keyframes transition-1-river {
-	2200 {
+@-skrollr-keyframes transition1-river {	
+	}
+	2800 {
+		display: block;
+		transform: translate(0px,550px);
+	}
+	
+	3500 {
+		transform: translate(0px,0px);
+	}
+}
+
+.independant-floating-head {
+	-skrollr-animation-name: independant-head;
+}
+
+@-skrollr-keyframes independant-head {	
+	2800 {
 		display: block;
 		opacity: 0;
-		bottom: -100px;
+		transform: translate(-700px,0px);
 	}
-	
-	2400 {
+	3500 {
+		opacity: 1;
+		display: block;
+		transform: translate(0px,0px);
+	}
+	4700 {
+		opacity:1;
+		transform: translate(900px,80px);
+	}
+	5200 {
+		transform: translate(1600px,140px);
 		opacity: 0;
 	}
-	
-	2800 {
-		opacity: 1;
-		bottom: 0;
-	}
 }
 
-.transition1-container {
-	-skrollr-animation-name: transition-1-out;
+#slide2 {
+	-skrollr-animation-name: slide2;
 }
-
-@-skrollr-keyframes transition-1-out {
-	2800 {
-		display: block;
-		left: 0px;
-		opacity: 1;
-		transform: rotate(0deg);
+@-skrollr-keyframes slide2 {	
+	5200 {
+		left: 5200px;
 	}
-	
-	3800 {
-		left: -1200px;
-		transform: rotate(-45deg);
-		opacity:0;
-	}
-}
-
-.slide2-container {
-	-skrollr-animation-name: slide-2-in;
-}
-
-@-skrollr-keyframes slide-2-in {
-	2800 {
-		display: block;
-		left: 1200px;
-	}
-	
-	3800 {
-		left: 0px;
+	8000 {
+		left: 8000px;
 	}
 }
