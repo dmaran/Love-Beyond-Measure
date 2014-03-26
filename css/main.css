@@ -49,8 +49,8 @@
 		height: 100%;
 		width: 100%;
 		top: 150px;
-		max-width: 1200px;
-		max-height: 750px;
+max-width:1200px;
+max-height:750px;
 		margin: auto;
 		overflow: hidden;
 		background: #323232;
@@ -806,11 +806,10 @@
 	position:absolute;
 	background: url('../images/slide5/background.png') no-repeat;
 	background-size:contain;
-    height:650px;
-	width:420px;
-	top:5%;
-	left:44%;
-	margin-left:-200px;
+    height:750px;
+	width:1200px;
+	top:0%;
+left:0%;
 	}
 	.slide5-image2-clouds{
 	display:block;
@@ -818,40 +817,40 @@
 	background: url('../images/slide5/clouds.png') no-repeat;
 	background-size:contain;
     height:250px;
-	width:400px;
-	top:5%;
-	left:44%;
-		margin-left:-200px;
+	width:1200px;
+	top:0%;
+	left:0%;
+
 	}
 	.slide5-image3-spurts{
 	display:block;
 	position:absolute;
 	background: url('../images/slide5/spurts.png') no-repeat;
 	background-size:contain;
-    height:400px;
-	width:100px;
-	top:27.8%;
-	left:53%;
+    height:536px;
+	width:120px;
+	bottom:0%;
+	right:3%;
 	}
 	.slide5-image4-pot1{
 	display:block;
 	position:absolute;
 	background: url('../images/slide5/pot1.png') no-repeat;
 	background-size:contain;
-    height:250px;
-	width:80px;
-	top:24.5%;
-	left:55.5%;
+    height:195px;
+	width:121px;
+	top:21.9%;
+	right:0px;
 	}
 	.slide5-image5-pot2{
 	display:block;
 	position:absolute;
 	background: url('../images/slide5/pot2.png') no-repeat;
 	background-size:contain;
-    height:250px;
-	width:70px;
-	top:39.7%;
-	left:56.5%;
+    height:134px;
+	width:103px;
+	top:48.2%;
+	right:0px;
 	}
 
 	.slide5-image6-pot3{
@@ -859,41 +858,40 @@
 	position:absolute;
 	background: url('../images/slide5/pot3.png') no-repeat;
 	background-size:contain;
-    height:250px;
-	width:60px;
-	top:49.8%;
-	left:57.3%;
+    height:175px;
+	width:89px;
+	top:65.8%;
+	right:0px;
 	}
 	.slide5-image7-pot4{
 	display:block;
 	position:absolute;
 	background: url('../images/slide5/pot4.png') no-repeat;
 	background-size:contain;
-    height:250px;
-	width:50px;
-	top:62.3%;
-	left:58%;
+    height:119px;
+	width:70px;
+	bottom:-2%;
+	right:0%;
 	}
 	.slide5-image8-women{
 	display:block;
 	position:absolute;
 	background: url('../images/slide5/women.png') no-repeat;
 	background-size:contain;
-    height:600px;
-	width:300px;
-	top:15%;
-	left:28%;
+    height:682px;
+	width:440px;
+	bottom:0%;
+	left:2%;
 	}
 	.slide5-image9-square{
 	display:block;
 	position:absolute;
 	background: url('../images/slide5/square.png') no-repeat;
 	background-size:contain;
-    height:500px;
-	width:320px;
-	top:17.5%;
-	left:44%;
-		margin-left:-200px;
+    height:527px;
+	width:571px;
+	bottom:0px;
+	left:0px;
 	}
 
 
