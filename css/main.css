@@ -962,3 +962,77 @@ left:0%;
 	left:0%;
 	margin-left:-200px;
 	}
+
+/*  Slide seven */
+
+	.slide7-container {
+		position: absolute;
+		height: 750px;
+		width: 1200px;
+		overflow:hidden;
+		background: url('../images/slide7/background.png') no-repeat;
+		background-size:contain;
+		left:50%;
+		margin-left:-600px;
+		top:0;
+	}
+	.slide7-image1-weapons1{
+	display:block;
+	position:absolute;
+	background: url('../images/slide7/weapons1.png') no-repeat;
+	background-size:contain;
+    height:146px;
+	width:110px;
+    bottom:5%;
+	left:20%;
+	}
+	.slide7-image2-weapons2{
+	display:block;
+	position:absolute;
+	background: url('../images/slide7/weapons2.png') no-repeat;
+	background-size:contain;
+    height:121px;
+	width:131px;
+    bottom:30%;
+	left:30%;
+	}
+	.slide7-image3-weapons3{
+	display:block;
+	position:absolute;
+	background: url('../images/slide7/weapons3.png') no-repeat;
+	background-size:contain;
+    height:213px;
+	width:127px;
+	bottom:45%;
+	left:17%;
+	}
+	.slide7-image4-weapons4{
+	display:block;
+	position:absolute;
+	background: url('../images/slide7/weapons4.png') no-repeat;
+	background-size:contain;
+    height:180px;
+	width:109px;
+	bottom:70%;
+	left:32%;
+	}
+	.slide7-image5-pot{
+	display:block;
+	position:absolute;
+	background: url('../images/slide7/pot.png') no-repeat;
+	background-size:contain;
+    height:104px;
+	width:143px;
+    bottom:0%;
+	left:55%;
+	}
+	.slide7-image6-women{
+	display:block;
+	position:absolute;
+	background: url('../images/slide7/women.png') no-repeat;
+	background-size:contain;
+    height:706px;
+	width:339px;
+	top:0%;
+	right:10%;
+	}
